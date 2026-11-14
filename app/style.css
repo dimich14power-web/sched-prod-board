@@ -9,3 +9,8 @@ h1 { margin: 0; font-size: 22px; }
 .row.sev2 .sev { color: #a15c00; }
 .row time { color: #555; font-variant-numeric: tabular-nums; }
 footer { color: #777; font-size: 13px; }
+.row { grid-template-columns: 90px 50px 1fr 120px 80px; }
+.loader, .empty { color: #666; }
+.acked { color: #1b7f3b; font-weight: 600; }
+.status { color: #888; font-size: 13px; }
+footer code { font-family: ui-monospace, monospace; }
