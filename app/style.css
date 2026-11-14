@@ -14,3 +14,7 @@ footer { color: #777; font-size: 13px; }
 .acked { color: #1b7f3b; font-weight: 600; }
 .status { color: #888; font-size: 13px; }
 footer code { font-family: ui-monospace, monospace; }
+.confirm { position: fixed; left: 50%; bottom: 32px; transform: translateX(-50%); z-index: 10; max-width: 560px; padding: 14px 18px; background: #fff; border: 2px solid #1d1d1f; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
+.confirm[hidden] { display: none; }
+.confirm p { margin: 0 0 10px; font-weight: 600; }
+.confirm button { margin-right: 8px; padding: 4px 14px; }
